@@ -23,6 +23,8 @@ void	ft_print_alphabet(void)
 	c = 97;
 	while (c <= 122)
 	{
+		if (!(c >= 97 && c<= 122))
+			return ;
 		write(1, &c, 1);
 		c++;
 	}
