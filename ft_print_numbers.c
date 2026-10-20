@@ -23,8 +23,6 @@ void	ft_print_alphabet(void)
 	c = 97;
 	while (c <= 122)
 	{
-		if (!(c >= 97 && c <= 122))
-			return ;
 		write(1, &c, 1);
 		c++;
 	}
@@ -37,8 +35,6 @@ void	ft_print_reverse_alphabet(void)
 	c = 122;
 	while (c >= 97)
 	{
-		if (!(c >= 97 && c <= 122))
-			return ;
 		write(1, &c, 1);
 		c--;
 	}
@@ -51,8 +47,6 @@ void	ft_print_numbers(void)
 	c = 48;
 	while (c <= 57)
 	{
-		if (!(c >= 48 && c <= 57))
-			return ;
 		write(1, &c, 1);
 		c++;
 	}
